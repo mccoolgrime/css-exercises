@@ -1,27 +1,41 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  margin: 0px 0px 8px 0px;
+  font-size: 16px;
+  padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px; 
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  margin: 8px 0px 0px 0px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px; 
+  width: 132px;
+  margin: 0 auto 0 auto;
+  /*Their solution had 0 auto  Mine only had auto and it worked. 0 auto did not but this solution above did */
+  display: block
 }
